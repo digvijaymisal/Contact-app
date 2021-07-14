@@ -20,13 +20,9 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 |-- Coverage ( Code Coverage of app)
 |-- Src + 
-
-    |-- app + 
-    
-    |-- app.module (bootstraping module)
-    
-    |-- contact + (module)
-    
+    |-- app +    
+    |-- app.module (bootstraping module)  
+    |-- contact + (module) 
         |-- add-contact (component to add contact)
         |-- contact-list ( component to show list of contacts)
         |-- Services + ( shared services )
