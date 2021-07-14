@@ -25,13 +25,21 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
     |-- app +
     
     |-- app.module (bootstraping module)  
+    
     |-- contact + (module) 
+    
         |-- add-contact (component to add contact)
+        
         |-- contact-list ( component to show list of contacts)
+        
         |-- Services + ( shared services )
+        
             |-- data.ts ( service to share the data)
+            
             |-- utilityService.ts ( service for utility functions eg. here to set and get localstorage data )
+            
         |-- contact-model.ts (model for contact details)
+        
     |-- shared + (module to use angular material components)
 
 ## Running unit tests
