@@ -1,0 +1,28 @@
+<h1 mat-dialog-title> {{data['action']}} Contact</h1>
+<div mat-dialog-content>
+  <form class="contact-form" [formGroup]="formGroup" ngNativeValidate>
+
+      <mat-form-field appearance="fill">
+        <mat-label>First Name</mat-label>
+        <input matInput formControlName="first_name">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Last Name</mat-label>
+        <input matInput formControlName="last_name">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Mobile No</mat-label>
+        <input matInput formControlName="mobile">
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email">
+      </mat-form-field>
+    <mat-slide-toggle name="status" formControlName="status">Status</mat-slide-toggle>
+  
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button id="closeBtn" mat-button color="warn" (click)="onNoClick()">Close</button>
+  <button *ngIf="data['action'] != 'View'" [disabled]="formGroup.invalid" mat-button color="primary" [mat-dialog-close]="formGroup.value" cdkFocusInitial>Save</button>
+</div>

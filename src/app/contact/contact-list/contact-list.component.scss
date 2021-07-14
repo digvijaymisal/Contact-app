@@ -1,0 +1,22 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.contact-card{
+    min-width: 350px;
+}
+
+.addBtn{
+    position: absolute;
+    right: 30px;
+}
+
+.mat-card-header .mat-card-title {
+    margin-top: 20px;
+}
+.boldText{
+    font-weight: 500 !important;
+}
