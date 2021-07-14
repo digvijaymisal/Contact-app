@@ -1,5 +1,15 @@
 # Contact-app
 
+Live Demo :
+
+
+Code Coverage :
+
+
+## Functional Use / Help
+1. Initially contact list is empty. when you click on top-right cornered plus button one pop up box opens where we need to add contact details
+2. Once you add contact ypu can deactivate it and update and delete it by exploring options icon.
+
 ## Installation Guide
 
 1. Install Node.js
